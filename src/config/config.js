@@ -1,6 +1,5 @@
 require('dotenv').config();
 
-
 module.exports = {
     token: '',
     clientId: '1273230302822797312',
@@ -11,21 +10,19 @@ module.exports = {
         clientId: process.env.SPOTIFY_CLIENT_ID,
         clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
     },
-    cookies:{
+    cookies: {
         domain: ".youtube.com",
-        expirationDate: 1757764090.235338,
+        expirationDate: 1732234773,
         hostOnly: false,
         httpOnly: false,
-        name: "__Secure-1PAPISID",
+        name: "_gcl_au",
         path: "/",
         sameSite: "unspecified",
-        secure: true,
+        secure: false,
         session: false,
         storeId: "0",
-        value: "1WEHRrYUBttCn9ih/ACbOwdBzceu9lwe-x",
-        id: 1
+        value: "1.1.234926006.1724458773"
     },
-    
     distubeOptions: {
         emitAddListWhenCreatingQueue: true,
         emitAddSongWhenCreatingQueue: false,
